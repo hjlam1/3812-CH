@@ -1,0 +1,48 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon R9 200 Series (ID=0x67b0)
+    Vendor:   ATI
+    VRAM:     4072 MB
+    Driver:   21.19.519.2
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\CSCore.dll (this message is harmless)
+Loading C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\CSCore.dll into Unity Child Domain
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Henry\Desktop\Anyways\3812Gallery\HeartbeatTiltBrush\TiltViewer_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.289 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+OpenVR initialized!
+ 
+(Filename:  Line: 584)
+
+[VRDevice] Successfully created device OpenVR.
+UnloadTime: 0.491509 ms
+Connected to lighthouse:LHR-D599EEC9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ChaperoneInfo initialized. Roomscale play area 4.00m x 3.30m
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1de4 -> priority: 1 
+  Thread -> id: 1e18 -> priority: 1 
+OpenVR Shutdown
+ 
+(Filename:  Line: 1253)
+
