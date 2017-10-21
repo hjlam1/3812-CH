@@ -61,7 +61,7 @@ public class DistanceAudioListener : MonoBehaviour
         {
             yield return new WaitForSeconds(HeartbeatDuration);
             HeartbeatAudioClip.Play();
-            this.GetComponentInChildren<HeartBeat>().theHeart.GetComponent<SerialController>().SendSerialMessage("1");
+            //this.GetComponentInChildren<HeartBeat>().theHeart.GetComponent<SerialController>().SendSerialMessage("1");
         }
     }
 
@@ -71,11 +71,21 @@ public class DistanceAudioListener : MonoBehaviour
         NewHeartbeatDuration = DurationInput;
         Triggered = true;
         LerpTime = 0f;
+        Debug.Log(DurationInput);
+    }
+
+    public void GazedTrigger(float DurationInput) {
+        print("GazedTrigger");
+        NewHeartbeatDuration = DurationInput;
+        Triggered = true;
+        LerpTime = 0f;
+        Debug.Log(DurationInput);
     }
 
     public void ExitTrigger()
     {
         LerpTime = 0f;
         Triggered = false;
+        Debug.Log(OriHeartbeatDuration);
     }
 }

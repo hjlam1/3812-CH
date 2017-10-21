@@ -11,7 +11,7 @@ public class SendDurationData : MonoBehaviour
 
     void OnTriggerEnter(Collider Player)
     {
-        if (Player.transform.name != "VRCamera")
+        if (Player.transform.tag != "Player")
         {
             return;
         }
@@ -23,7 +23,7 @@ public class SendDurationData : MonoBehaviour
 
     void OnTriggerExit(Collider Player)
     {
-        if (Player.transform.name != "VRCamera")
+        if (Player.transform.tag != "Player")
         {
             return;
         }

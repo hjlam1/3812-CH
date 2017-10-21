@@ -85,8 +85,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\EnterTriggerChangeHeartbeatDuration\DistanceAudioListener.cs" />
+    <Compile Include="Assets\EnterTriggerChangeHeartbeatDuration\GazeMarker.cs" />
+    <Compile Include="Assets\EnterTriggerChangeHeartbeatDuration\RayCast.cs" />
     <Compile Include="Assets\EnterTriggerChangeHeartbeatDuration\SendDurationData.cs" />
     <Compile Include="Assets\RunInBackground.cs" />
+    <Compile Include="Assets\Scripts\FlareCollider.cs" />
     <Compile Include="Assets\Scripts\HeartBeat.cs" />
     <Compile Include="Assets\SerialComm\Scripts\Samples\SampleCustomDelimiter.cs" />
     <Compile Include="Assets\SerialComm\Scripts\Samples\SampleMessageListener.cs" />
