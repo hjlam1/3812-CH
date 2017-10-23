@@ -394,6 +394,46 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!1 &247399854 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1112355970716902, guid: da8ac287670282a488111f1627157e91,
+    type: 2}
+  m_PrefabInternal: {fileID: 770291626}
+--- !u!4 &247399855 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4788521162690410, guid: da8ac287670282a488111f1627157e91,
+    type: 2}
+  m_PrefabInternal: {fileID: 770291626}
+--- !u!114 &247399856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247399854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bca9ccf900ccc84c887d783321d27e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _head: {fileID: 247399855}
+  _ears: {fileID: 0}
+  wireframe: 0
+--- !u!114 &247399857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247399854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c12500f3afdeb24d9444042960a4cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomIntensity: 0.04
+  shader: {fileID: 4800000, guid: 6581f8d2f208b8340b8d59c7bf38cc9a, type: 3}
+  lensDirtTexture: {fileID: 0}
+  lensDirtIntensity: 0.05
+  inputIsHDR: 1
 --- !u!21 &497169970
 Material:
   serializedVersion: 6
@@ -893,7 +933,7 @@ Prefab:
       objectReference: {fileID: 8300000, guid: 2e44801543f79674d9db6eff70f01078, type: 3}
     - target: {fileID: 1996507804081062, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114645471847248902, guid: da8ac287670282a488111f1627157e91,
         type: 2}
@@ -930,7 +970,28 @@ Prefab:
       propertyPath: CameraLayerMask.m_Bits
       value: 514
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 20252520041101086, guid: da8ac287670282a488111f1627157e91,
+        type: 2}
+      propertyPath: m_HDR
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20252520041101086, guid: da8ac287670282a488111f1627157e91,
+        type: 2}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20847354384034012, guid: da8ac287670282a488111f1627157e91,
+        type: 2}
+      propertyPath: m_HDR
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 20847354384034012, guid: da8ac287670282a488111f1627157e91,
+        type: 2}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114470880709031406, guid: da8ac287670282a488111f1627157e91, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: da8ac287670282a488111f1627157e91, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &783336620
@@ -2264,6 +2325,22 @@ Behaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1350572972}
   m_Enabled: 1
+--- !u!114 &1350572978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1350572972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c12500f3afdeb24d9444042960a4cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomIntensity: 0.04
+  shader: {fileID: 4800000, guid: 6581f8d2f208b8340b8d59c7bf38cc9a, type: 3}
+  lensDirtTexture: {fileID: 0}
+  lensDirtIntensity: 0.05
+  inputIsHDR: 0
 --- !u!1001 &1357375716
 Prefab:
   m_ObjectHideFlags: 0
