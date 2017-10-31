@@ -282,7 +282,7 @@ Prefab:
     - target: {fileID: 114627360863682670, guid: 741b7a81590542446b0fff2c39bd49f0,
         type: 2}
       propertyPath: Duration
-      value: 0.35
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 1549547857660676, guid: 741b7a81590542446b0fff2c39bd49f0, type: 2}
       propertyPath: m_Layer
@@ -434,6 +434,156 @@ MonoBehaviour:
   lensDirtTexture: {fileID: 0}
   lensDirtIntensity: 0.05
   inputIsHDR: 1
+--- !u!114 &247399863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 247399854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  greenChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  blueChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.994812
+      value: 0.8634167
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  useDepthCorrection: 0
+  zCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthRedChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthGreenChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthBlueChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.997061
+      value: 0.9125
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  saturation: 0.9
+  selectiveCc: 0
+  selectiveFromColor: {r: 1, g: 1, b: 1, a: 1}
+  selectiveToColor: {r: 1, g: 1, b: 1, a: 1}
+  mode: 0
+  updateTextures: 1
+  colorCorrectionCurvesShader: {fileID: 4800000, guid: 62bcade1028c24ca1a39760ed84b9487,
+    type: 3}
+  simpleColorCorrectionCurvesShader: {fileID: 4800000, guid: 438ddd58d82c84d9eb1fdc56111702e1,
+    type: 3}
+  colorCorrectionSelectiveShader: {fileID: 4800000, guid: e515e0f94cefc4c0db54b45cba621544,
+    type: 3}
 --- !u!21 &497169970
 Material:
   serializedVersion: 6
@@ -808,31 +958,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.333
+      value: -0.336
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.609
+      value: 0.502
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.332
+      value: 0.321
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0.008230087
+      value: -0.051959176
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.9860991
+      value: -0.37810826
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.051436078
+      value: -0.003694514
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.15778199
+      value: -0.92429477
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_RootOrder
@@ -858,7 +1008,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 198.181
+      value: 404.621
       objectReference: {fileID: 0}
     - target: {fileID: 124647412605788200, guid: da8ac287670282a488111f1627157e91,
         type: 2}
@@ -867,7 +1017,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -5.972
+      value: 5.3510003
       objectReference: {fileID: 0}
     - target: {fileID: 4556673149980022, guid: da8ac287670282a488111f1627157e91, type: 2}
       propertyPath: m_LocalPosition.x
@@ -915,6 +1065,10 @@ Prefab:
         type: 2}
       propertyPath: showInstructions
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630337555324182, guid: da8ac287670282a488111f1627157e91, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.6550002
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114470880709031406, guid: da8ac287670282a488111f1627157e91, type: 2}
@@ -1375,7 +1529,7 @@ Prefab:
     - target: {fileID: 114041656618568364, guid: d1ea83c0bd28e044b94f4fc33ada07dc,
         type: 2}
       propertyPath: Duration
-      value: 0.55
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1406591062482318, guid: d1ea83c0bd28e044b94f4fc33ada07dc, type: 2}
       propertyPath: m_Layer
@@ -1556,7 +1710,7 @@ Prefab:
     - target: {fileID: 114041656618568364, guid: d1ea83c0bd28e044b94f4fc33ada07dc,
         type: 2}
       propertyPath: Duration
-      value: 1.5
+      value: 1.87
       objectReference: {fileID: 0}
     - target: {fileID: 1406591062482318, guid: d1ea83c0bd28e044b94f4fc33ada07dc, type: 2}
       propertyPath: m_Layer
@@ -1653,6 +1807,156 @@ MonoBehaviour:
   lensDirtTexture: {fileID: 0}
   lensDirtIntensity: 0.05
   inputIsHDR: 0
+--- !u!114 &1350572979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1350572972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  greenChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  blueChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.89428085
+      value: 0.74295384
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  useDepthCorrection: 0
+  zCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthRedChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthGreenChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthBlueChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  saturation: 0.9
+  selectiveCc: 0
+  selectiveFromColor: {r: 1, g: 1, b: 1, a: 1}
+  selectiveToColor: {r: 1, g: 1, b: 1, a: 1}
+  mode: 0
+  updateTextures: 1
+  colorCorrectionCurvesShader: {fileID: 4800000, guid: 62bcade1028c24ca1a39760ed84b9487,
+    type: 3}
+  simpleColorCorrectionCurvesShader: {fileID: 4800000, guid: 438ddd58d82c84d9eb1fdc56111702e1,
+    type: 3}
+  colorCorrectionSelectiveShader: {fileID: 4800000, guid: e515e0f94cefc4c0db54b45cba621544,
+    type: 3}
 --- !u!1001 &1357375716
 Prefab:
   m_ObjectHideFlags: 0
@@ -1714,7 +2018,7 @@ Prefab:
     - target: {fileID: 114627360863682670, guid: 741b7a81590542446b0fff2c39bd49f0,
         type: 2}
       propertyPath: Duration
-      value: 0.35
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 1549547857660676, guid: 741b7a81590542446b0fff2c39bd49f0, type: 2}
       propertyPath: m_Layer
@@ -1912,6 +2216,7 @@ GameObject:
   - component: {fileID: 1588617732}
   - component: {fileID: 1588617731}
   - component: {fileID: 1588617730}
+  - component: {fileID: 1588617735}
   m_Layer: 0
   m_Name: SecondaryCamera
   m_TagString: Untagged
@@ -1993,6 +2298,156 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 15.377001, y: 0, z: 0}
+--- !u!114 &1588617735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588617729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd999d1b2cf94a45a5b0a47ce074bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  greenChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  blueChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.99533135
+      value: 0.83125
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  useDepthCorrection: 0
+  zCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthRedChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthGreenChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  depthBlueChannel:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  saturation: 0.9
+  selectiveCc: 0
+  selectiveFromColor: {r: 1, g: 1, b: 1, a: 1}
+  selectiveToColor: {r: 1, g: 1, b: 1, a: 1}
+  mode: 0
+  updateTextures: 1
+  colorCorrectionCurvesShader: {fileID: 4800000, guid: 62bcade1028c24ca1a39760ed84b9487,
+    type: 3}
+  simpleColorCorrectionCurvesShader: {fileID: 4800000, guid: 438ddd58d82c84d9eb1fdc56111702e1,
+    type: 3}
+  colorCorrectionSelectiveShader: {fileID: 4800000, guid: e515e0f94cefc4c0db54b45cba621544,
+    type: 3}
 --- !u!1001 &1621565274
 Prefab:
   m_ObjectHideFlags: 0
@@ -2196,7 +2651,7 @@ Prefab:
     - target: {fileID: 114728083015207792, guid: 284207525175a58488e5ce53c3061335,
         type: 2}
       propertyPath: DurationTime
-      value: 0.5
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 23190446232052372, guid: 284207525175a58488e5ce53c3061335,
         type: 2}
@@ -2637,7 +3092,7 @@ Prefab:
     - target: {fileID: 114041656618568364, guid: d1ea83c0bd28e044b94f4fc33ada07dc,
         type: 2}
       propertyPath: Duration
-      value: 0.55
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 1406591062482318, guid: d1ea83c0bd28e044b94f4fc33ada07dc, type: 2}
       propertyPath: m_Layer
@@ -2781,6 +3236,10 @@ Prefab:
     - target: {fileID: 100020, guid: f0f2894961c32e44b888eddb5d2d023b, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: f0f2894961c32e44b888eddb5d2d023b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0f2894961c32e44b888eddb5d2d023b, type: 3}
